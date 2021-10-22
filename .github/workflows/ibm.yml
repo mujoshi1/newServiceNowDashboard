@@ -19,9 +19,9 @@ env:
   IBM_CLOUD_REGION: us-south
   ICR_NAMESPACE: ${{ secrets.ICR_NAMESPACE }}
   REGISTRY_HOSTNAME: us.icr.io
-  IMAGE_NAME: Python-test
+  IMAGE_NAME: iks_ServiceNowDashboard_Python
   IKS_CLUSTER: c57bshid0jbp7tvn1cpg
-  DEPLOYMENT_NAME: Python-test
+  DEPLOYMENT_NAME: iks_ServiceNowDashboard_Python
   PORT: 5007
 
 jobs:
