@@ -20,9 +20,9 @@ env:
   IBM_CLOUD_REGION: us-south
   ICR_NAMESPACE: ${{ secrets.ICR_NAMESPACE }}
   REGISTRY_HOSTNAME: us.icr.io
-  IMAGE_NAME: iks-ServiceNowDashboard
+  IMAGE_NAME: iks-servicenowdashboard
   IKS_CLUSTER: c5p96v2f0lldjo935660
-  DEPLOYMENT_NAME: iks-ServiceNowDashboard
+  DEPLOYMENT_NAME: iks-servicenowdashboard
   PORT: 5001
 
 jobs:
